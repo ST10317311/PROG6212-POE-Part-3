@@ -22,5 +22,6 @@ namespace RaceDayEventManagementSystem.API.Data
         public DbSet<ParticipantModel> ParticipantsModel { get; set; }
 
         public DbSet<ResultsModel> ResultsModel { get; set; }
+
     }
 }

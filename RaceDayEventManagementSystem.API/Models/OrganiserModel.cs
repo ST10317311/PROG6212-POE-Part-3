@@ -7,7 +7,7 @@ namespace RaceDayEventManagementSystem.API.Models
         [Key]
         public Guid organiserID { get; set; }
 
-        public required string organiserName { get; set; } = null;
+        public required string? organiserName { get; set; } = null;
 
         public required string? organiserSurname { get; set; } = null;
 
