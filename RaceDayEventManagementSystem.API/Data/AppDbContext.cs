@@ -19,7 +19,7 @@ namespace RaceDayEventManagementSystem.API.Data
 
         public DbSet<OrganiserModel> OrganiserModel { get; set; }
 
-        public DbSet<ParticipantModel> ParticipantsModel { get; set; }
+        public DbSet<ParticipantModel> ParticipantModel { get; set; }
 
         public DbSet<ResultsModel> ResultsModel { get; set; }
 
